@@ -1,0 +1,213 @@
+ <!DOCTYPE html> 
+ 
+<html lang="en"> 
+ 
+<head> 
+<meta charset="UTF-8"> 
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+<title>🍽Slash Services -- Eat.Enjoy</title> 
+ 
+<style> 
+ 
+body { 
+ 
+font-family: Arial, sans
+serif; margin: 0; 
+padding: 0; 
+ 
+} 
+ 
+header { 
+ 
+background-color: 
+#fff; padding: 10px 
+20px; display: flex; 
+justify-content: space
+between; align-items: 
+center; 
+box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+ 
+} 
+.logo { 
+ 
+color: #00c853; 
+font-size: 24px; 
+font-weight: 
+bold; 
+} 
+nav a { 
+ 
+margin-left: 20px; 
+ 
+text-decoration: none; 
+color: #333; 
+} 
+ 
+.get-app { 
+ 
+background-color: #00c853; 
+color: white; 
+padding: 8px 
+16px; 
+border-radius: 4px; 
+} 
+main { 
+ 
+padding: 20px; 
+ 
+} 
+ 
+h1 { 
+ 
+font-size: 24px; 
+ 
+} 
+ 
+.tabs { 
+display: flex; 
+ 
+margin-bottom: 20px; 
+ 
+} 
+ 
+.tabs a { 
+ 
+margin-right: 
+20px; color: 
+#333; 
+text-decoration: none; padding-bottom: 5px; 
+} 
+ 
+.tabs a.active { 
+ 
+border-bottom: 2px solid #00c853; 
+ 
+} 
+ 
+.venues { 
+display: flex; 
+flex-wrap: wrap; 
+ 
+} 
+ 
+.venue-card { 
+width: 
+300px; 
+margin: 
+10px; 
+border: 1px solid 
+#ddd; border-radius: 
+4px; overflow: 
+hidden; 
+} 
+ 
+.venue-card img 
+{ width: 
+100%; 
+height: 
+200px; 
+object-fit: cover; 
+} 
+ 
+.venue-info { 
+padding: 10px; 
+} 
+ 
+.venue-name { 
+ 
+font-weight: bold; 
+margin-bottom: 
+5px; 
+} 
+ 
+.venue-location 
+{ color: #666; 
+font-size: 
+14px; 
+} 
+ 
+</style> 
+ 
+</head> 
+ 
+<body> 
+ 
+<header> 
+ 
+<div class="logo" ><font size="5" color="black">🍽Slash Services -- Eat.Enjoy</font></div> 
+ 
+<nav> 
+ 
+<a href="#"><button>📍Vijayawada🔽</button></a> 
+ 
+<a href="restaurents.html"><button>🍜ORDER</button></a> 
+ 
+<a href="restaurentscontacts.html"><font size="4"><button>📞CONTACTS</button></font></a> 
+ 
+<a href="restaurentsabout.html"><font size="5"><button>📖LEARN</button></font></a> 
+ <a href="restaurentreview.html"><font size="5"><button>📝REVIEW</button></font></a> 
+</nav> 
+</header>
+<main><main>
+  <h1>📝 Share Your Restaurant Review</h1>
+  <div class="review-box">
+    <form action="#" method="post">
+      <label for="restaurant-name">Restaurant Name:</label><br>
+      <input type="text" id="restaurant-name" name="restaurant-name" required><br><br>
+
+      <label for="review-text">Your Review:</label><br>
+      <textarea id="review-text" name="review-text" rows="6" required></textarea><br><br>
+
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating" required>
+        <option value="">⭐ Select</option>
+        <option value="1">⭐ 1</option>
+        <option value="2">⭐⭐ 2</option>
+        <option value="3">⭐⭐⭐ 3</option>
+        <option value="4">⭐⭐⭐⭐ 4</option>
+        <option value="5">⭐⭐⭐⭐⭐ 5</option>
+      </select><br><br>
+
+      <a href ="restaurents.html"><button type="submit">Submit Review</button></a>
+    </form>
+  </div>
+</main>
+
+<style>
+  .review-box {
+    max-width: 600px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .review-box input[type="text"],
+  .review-box textarea,
+  .review-box select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .review-box button {
+    background-color: #0e0f0f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .review-box button:hover {
+    background-color: #0e0f0f;
+  }
+</style>
+
